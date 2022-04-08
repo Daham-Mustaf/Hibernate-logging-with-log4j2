@@ -1,0 +1,34 @@
+2022-Apr-08 23:04:02 PM [main] DEBUG org.hibernate.SQL - drop table if exists person_tb cascade
+2022-Apr-08 23:04:02 PM [main] DEBUG org.hibernate.SQL - create table person_tb (DTYPE varchar(31) not null, id  serial not null, gender varchar(10), name varchar(100), fee float4, school_name varchar(50), section_name varchar(50), bonus numeric(6, 3), dept_name varchar(30), date_of_joining timestamp, email varchar(30), salary DECIMAL(7,2), primary key (id))
+2022-Apr-08 23:04:02 PM [main] DEBUG org.hibernate.SQL - alter table person_tb add constraint UK_2o1igrsukxah6ttfjr9q0aqp9 unique (email)
+2022-Apr-08 23:04:02 PM [main] DEBUG org.hibernate.SQL - insert into person_tb (gender, name, DTYPE) values (?, ?, 'Person')
+2022-Apr-08 23:04:02 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [Female]
+2022-Apr-08 23:04:02 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [Sudha Verma]
+2022-Apr-08 23:04:02 PM [main] INFO  main.Main - Person(id=1, name=Sudha Verma, gender=Female)
+2022-Apr-08 23:04:36 PM [main] DEBUG org.hibernate.SQL - drop table if exists person_tb cascade
+2022-Apr-08 23:04:36 PM [main] DEBUG org.hibernate.SQL - create table person_tb (DTYPE varchar(31) not null, id  serial not null, gender varchar(10), name varchar(100), fee float4, school_name varchar(50), section_name varchar(50), bonus numeric(6, 3), dept_name varchar(30), date_of_joining timestamp, email varchar(30), salary DECIMAL(7,2), primary key (id))
+2022-Apr-08 23:04:36 PM [main] DEBUG org.hibernate.SQL - alter table person_tb add constraint UK_2o1igrsukxah6ttfjr9q0aqp9 unique (email)
+2022-Apr-08 23:04:36 PM [main] DEBUG org.hibernate.SQL - insert into person_tb (gender, name, DTYPE) values (?, ?, 'Person')
+2022-Apr-08 23:04:36 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [Female]
+2022-Apr-08 23:04:36 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [Sudha Verma]
+2022-Apr-08 23:04:37 PM [main] INFO  main.Main - Person(id=1, name=Sudha Verma, gender=Female)
+2022-Apr-08 23:07:47 PM [main] DEBUG org.hibernate.SQL - drop table if exists person_tb cascade
+2022-Apr-08 23:07:47 PM [main] DEBUG org.hibernate.SQL - create table person_tb (DTYPE varchar(31) not null, id  serial not null, gender varchar(10), name varchar(100), fee float4, school_name varchar(50), section_name varchar(50), bonus numeric(6, 3), dept_name varchar(30), date_of_joining timestamp, email varchar(30), salary DECIMAL(7,2), primary key (id))
+2022-Apr-08 23:07:47 PM [main] DEBUG org.hibernate.SQL - alter table person_tb add constraint UK_2o1igrsukxah6ttfjr9q0aqp9 unique (email)
+2022-Apr-08 23:07:47 PM [main] DEBUG org.hibernate.SQL - insert into person_tb (gender, name, DTYPE) values (?, ?, 'Person')
+2022-Apr-08 23:07:47 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [Female]
+2022-Apr-08 23:07:47 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [Sudha Verma]
+2022-Apr-08 23:07:47 PM [main] INFO  main.Main - Person(id=1, name=Sudha Verma, gender=Female)
+2022-Apr-08 23:09:54 PM [main] DEBUG org.hibernate.SQL - drop table if exists person_tb cascade
+2022-Apr-08 23:09:54 PM [main] DEBUG org.hibernate.SQL - create table person_tb (DTYPE varchar(31) not null, id  serial not null, gender varchar(10), name varchar(100), fee float4, school_name varchar(50), section_name varchar(50), bonus numeric(6, 3), dept_name varchar(30), date_of_joining timestamp, email varchar(30), salary DECIMAL(7,2), primary key (id))
+2022-Apr-08 23:09:54 PM [main] DEBUG org.hibernate.SQL - alter table person_tb add constraint UK_2o1igrsukxah6ttfjr9q0aqp9 unique (email)
+2022-Apr-08 23:09:54 PM [main] DEBUG org.hibernate.SQL - insert into person_tb (gender, name, DTYPE) values (?, ?, 'Person')
+2022-Apr-08 23:09:54 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [Female]
+2022-Apr-08 23:09:54 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [Sudha Verma]
+2022-Apr-08 23:09:54 PM [main] INFO  main.Main - Person(id=1, name=Sudha Verma, gender=Female)
+2022-Apr-08 23:12:03 PM [main] DEBUG org.hibernate.SQL - drop table if exists person_tb cascade
+2022-Apr-08 23:12:03 PM [main] DEBUG org.hibernate.SQL - create table person_tb (DTYPE varchar(31) not null, id  serial not null, gender varchar(10), name varchar(100), fee float4, school_name varchar(50), section_name varchar(50), bonus numeric(6, 3), dept_name varchar(30), date_of_joining timestamp, email varchar(30), salary DECIMAL(7,2), primary key (id))
+2022-Apr-08 23:12:03 PM [main] DEBUG org.hibernate.SQL - insert into person_tb (gender, name, DTYPE) values (?, ?, 'Person')
+2022-Apr-08 23:12:03 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [Female]
+2022-Apr-08 23:12:03 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [Sudha Verma]
+2022-Apr-08 23:12:03 PM [main] INFO  main.Main - Person(id=1, name=Sudha Verma, gender=Female)
